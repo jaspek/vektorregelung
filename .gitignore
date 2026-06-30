@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.venv/
+venv/
+
+# Generated example artifacts (the committed plot lives in docs/)
+python/examples/*.png
+python/examples/*.csv
+
+# C build output
+c/build/
+*.o
+*.a
+*.out
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
